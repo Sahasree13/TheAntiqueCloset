@@ -1,0 +1,215 @@
+body{
+    margin:0 auto;
+    background-color:greenyellow;
+}
+.container{
+    width:1000px;
+    height:auto;
+    background-color:wheat;
+    margin:auto;
+    
+}
+.logo{
+
+    float: left;
+    padding:15px;
+}
+.search{
+    float: right;
+    padding:15px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color:lightcoral;
+}
+.main-menu>ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:None;
+}
+.main-menu>ul>li{
+    display: inline-block;
+
+}
+.main-menu>ul>li>a{
+    color:white;
+    text-decoration:None;
+    display: block;
+    padding:15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:small;
+
+}
+.main-menu>ul>li>a:hover{
+    background-color: yellow;
+}
+/*drop*/
+.drop{
+    list-style-type: None;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    display:none;
+    z-index: 999;
+}
+.drop>li>a{
+    color:white;
+    text-decoration:None;
+    display: block;
+    padding:15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:small;
+    background-color: black;  
+}
+.drop>li>a:hover{
+    background-color: tomato;
+}
+.main-menu>ul>li:hover .drop{
+    display:block;
+}
+/*Banner*/
+.banner{
+    width:500px;
+    height:250px;
+    overflow:hidden;
+}
+.banner img{
+    width:100%;
+    height:auto;
+}
+/*content holder*/
+.content-holder{
+    background-color:orange;
+}
+.content{
+    width:700px;
+    height:auto;
+    padding:25px;
+    background-color: palegoldenrod;
+    float:left;
+}
+.content h1{
+    font-size:1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.sidebar{
+    float:left;
+    padding: 25px;
+}
+
+.sidebar h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+.sidebar ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:None;
+}
+.sidebar ul>li>a{
+    display:block;
+    margin-bottom: 5px;
+    color:whitesmoke;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.main-footer{
+    background-color: pink;
+    color: black;
+    width:950px;
+    height:auto;
+    padding:25px;
+}
+.footer-box{
+    width:237.5px;
+    height:auto;
+    float:left;
+    font-family: sans-serif;
+
+
+}
+.footer-box>ul{
+    list-style-type: None;
+    margin:0px;
+    padding:0px;
+}
+.footer-box>ul>li>a{
+    display:block;
+    font-size: small;
+    margin-bottom: 5px;
+    color:darkred;
+    text-decoration: none;
+}
+address p{
+    font-size: small;
+}
+.footer-box address a{/*not directly inside but nested inside*/
+    color:teal;
+    font-size: small;
+}
+.copy{
+    padding: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tomato;
+    color: darkmagenta;
+}
+.copy p{
+    margin:0px;
+}
+/*page*/
+.content img{
+    max-width:100%;/*to fit the images the small remains small but the big one fits*/
+
+}
+.products img{
+    width: 500px;
+}
+/*product*/
+.products{
+    width:211.33px;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+    margin:5px;
+    padding:5px;
+}
+
+.product-caption p{
+    font-weight: bold;
+}
+.product-caption del{
+    color:red;
+}
+.product-caption ins{
+    color:green;
+}
+.product-caption a{
+    display: block;
+    background-color:lemonchiffon;
+    padding: 8px;
+    text-align:center;
+    color: darkgoldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:small;
+    text-decoration:none;
+    font-weight: bolder;
+
+
+}
+.product-caption a:hover{
+    background-color: midnightblue;
+}
+/*contact page*/
+.banner iframe{
+    width: 100%;
+    height: 416.66px;
+   
+}
